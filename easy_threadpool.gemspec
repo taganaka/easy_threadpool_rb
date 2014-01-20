@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
     Recommended for I/O activities are easily parallelizable, such as downloading
     remote resources, web scraping, bulk API calls, etc 
   }
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/taganaka/easy_threadpool_rb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
