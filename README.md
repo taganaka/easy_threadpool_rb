@@ -33,6 +33,7 @@ pool = Thread.pool(10)
     puts "Task consumed by worker ##{Thread.current[:id]}"
   end
 }
+pool.shutdown
 
 ```
 
