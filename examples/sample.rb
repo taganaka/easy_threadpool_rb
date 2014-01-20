@@ -20,4 +20,4 @@ urls.each do |u|
   end
 end
 pool.shutdown
-@logger.info "Consumed #{pool.task_consumed} task on #{pool.size} workers"
+@logger.info "Consumed #{pool.task_consumed} tasks by #{pool.size} workers"
